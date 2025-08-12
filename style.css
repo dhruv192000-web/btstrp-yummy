@@ -1,123 +1,360 @@
-.container {
-    width: 940px;
-    margin: auto;
+.main {
+    background-color: rgb(228, 225, 225);
 }
-
-.Dhruv {
-    text-align: center;
-}
-
-.Dhruv2 {
-}
-
-.Dhruv3 {
-    text-align: center;
-}
-
-.Dhruv4 {
-    text-align: center;
-}
-
-.Dhruv5 {
-    text-align: center;
-}
-
-.Dhruv6 {
-    text-align: center;
+.nav {
+    height: 12vh;
 }
 
 
-.Dhruv7 {
-    text-align: center;
+.img1 {
+    margin-top: 140px;
+}
+.para1 {
+    margin-top: 180px;
+}
+.caption {
+    background: transparent;
+    bottom: 0;
+    color: #fff;
+}
+.h1 {
+    font-size: 55px;
+}
+.p1 {
+    font-size: 22px;
+}
+.b1 {
+    height: 20vh;
+}
+.cn1 {
+    padding-top: 35px;
+}
+.icon {
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgba(255, 221, 221, 0.275);
+    color: red;
+}
+.card:hover .icon {
+    background-color: red;
+    color: white;
+    transition: linear;
 }
 
-
-.icon1 {
-    float: left;
-    width: 50%;
-}
-
-.left {
-    float: left;
-    width: 50%;
-}
-
-.right {
-    float: left;
-    width: 50%;
-}
-
-.Dhruv8 {
-    background-color: #ddd;
-    display: table;
+/* -------------------counting start ------------------- */
+.abtcnt {
     width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.8)),url(img/stats-bg.jpg)
 }
-/* ------------------------------------------------------------------------------------------------------- */
+.r1 {
+    margin-top: 220px;
+}
+.r2 {
+    font-size: 60px;
+}
+
+ul.nav.nav-tabs.justify-content-center {
+    border: 0;
+}
+/* -------------------testimonials------------------- */
+.testim{
+    background-color: rgb(228, 225, 225);
+}
+/* ------------------chef---------------- */
+.c1 :hover {
+     box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.iconc {
+    border-radius: 50%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    background-color: red;
+}
+.ic1:hover {
+    width: 100%;
+    color: red;
+}
+.br1 {
+    color: rgb(228, 225, 225);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .nav {
+  height: auto;
+}
+.nav-item {
+  font-size: 14px;
+}
+.btn.btn-danger.btn-lg.rounded-5 {
+  font-size: 12px;
+}
+.card.bg-danger.my-5 {
+  margin-right: 10px;
+}
+.card.my-5.two {
+  margin-right: 10px;
+}
+.r1 {
+  margin-top: 166px;
+}
+.flex-grow-1.ms-3.pt-5.social i {
+  margin-right: 6px !important;
+}
+.ftr4 {
+  padding-left: 0px;
+}
+}
+
+
 
 
 
 @media only screen and (max-width: 768px) {
- 
-.container {
-	width: 100%;
-	margin: auto;
-}
 
-.mnu1 {
-  text-align: center;
-}
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
-img {
-	max-width: 100%;
-}
-.img1 {
-  max-width: 32%;
-}
+  .container {
+    width: 100%;
+  }
+  .container-fluid {
+    width: 100%;
+  }
 
-.fnt {
-  font-size: 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+.navbar-toggler {
+  margin-left: 335px;
+  padding: 6px;
 }
+.col-lg-3.d-flex.flex-column.hrbt {
+  width: 50%;
 }
-
-/* ---------------------------------------------------------------------------------- */
-@media only screen and (max-width: 480px) {
-
-
-    .mnu1 {
-  font-size: 25px;
-  padding-top: 20px;
+.col-lg-5.img1 {
+  margin-top: 15px;
+}
+.img-fluid.mt-5.mb-5 {
+  width: 70%;
+  margin-left: 100px;
+}
+.abtcnt {
+  width: 100%;
+  height: auto;
   padding-bottom: 20px;
 }
-
-.Dhruv4 h1 {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.r1 {
+  margin-top: 22px;
 }
-
-.img1 {
-  max-width: 58%;
+.dsh11 {
+  width: 50%;
 }
-
-.fnt {
-  font-size: 14px;
+.dsh12 {
+  width: 50%;
 }
-
-.Dhruv6 {
-  padding-top: 15px;
+.dsh13 {
+  width: 50%;
+  margin-left: 175px;
+}
+.dsh21 {
+  width: 50%;
+}
+.dsh22 {
+  width: 50%;
+}
+.dsh23 {
+  width: 50%;
+  margin-left: 175px;
+}
+.pc1 {
+  width: 50%;
+  margin-left: 200px;
+}
+.pc {
+  width: 50%;
+}
+.c1 {
   padding-bottom: 15px;
+  width: 70%;
+  margin-left: 110px;
+}
+.rsv {
+  width: 70%;
+  margin-left: 110px;
+  margin-bottom: 15px;
+}
+.clmn {
+  padding-top: 15px;
+}
+.clmbt {
+  margin-bottom: 15px;
+}
+.ftr4 {
+  margin-left: 226px;
+  width: auto;
 }
 
-p {
-  font-size: 13px;
-}
-
-
 }
 
 
 
+@media only screen and (max-width: 640px) {
+
+    body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .nav {
+  display: flex;
+  width: 100%;
+}
+.logo {
+  width: 30%;
+}
+.navbar-toggler {
+  margin-left: 150px;
+}
+.lh-base.h1 {
+  font-size: 40px;
+}
+.lh-base.p1.text-secondary {
+  font-size: 17px;
+}
+.para1 {
+  margin-top: 120px;
+}
+.img-fluid.mt-5.mb-5 {
+    width: 60%;
+    margin-left: 100px;
+  }
+   .col-lg-5.img1 {
+    margin-top: 10px;
+  }
+  .fr1 {
+  flex-direction: column;
+}
+.one {
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+ .two {
+    margin-top: 0px !important;
+    margin-left: 118px;
+  }
+  .dsh11 {
+    width: 65%;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+  .dsh12 {
+    width: 65%;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+  .dsh13 {
+    width: 65%;
+    margin-left: 90px;
+    /* margin-bottom: 20px; */
+  }
+  .dsh21 {
+    width: 65%;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+  .dsh22 {
+    width: 65%;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+  .dsh23 {
+    width: 65%;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+  .pc1 {
+    width: 40%;
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+  .pc {
+  width: 40%;
+}
+ .c1 {
+    padding-bottom: 15px;
+    width: 65%;
+    margin-left: 96px;
+  }
+   .rsv {
+    width: 65%;
+    margin-left: 98px;
+    margin-bottom: 15px;
+  }
+  .d1 {
+  margin-bottom: 10px;
+}
+.d11 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.clmbt {
+  padding: 6px;
+}
+.rw2 {
+  padding-top: 0px !important;
+}
+.fill {
+  padding-top: 15px !important;
+}
+.pt-4 {
+  padding-top: 0px !important;
+}
+.ftr4 {
+  margin-left: 36px;
+}
+.cn1 {
+  padding-top: 22px;
+}
+.text-center.mt-4 {
+  margin-bottom: 25px;
+}
+.card-text:last-child {
+  margin-bottom: 10px;
+}
+
+}
 
 
 
@@ -128,9 +365,132 @@ p {
 
 
 
+@media only screen and (max-width: 480px) {
+  
+
+.navbar-toggler {
+    margin-left: 120px;
+  }
+   body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .img-fluid.mt-5.mb-5 {
+    width: 55%;
+    margin-left: 102px;
+  }
+  .lh-base.h1 {
+    font-size: 35px;
+  }
+  .lh-base.p1.text-secondary {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+   .col-lg-5.img1 {
+    margin-top: 0px;
+  }
+  .one {
+  margin-left: 28px;
+}
+.two {
+  margin-left: 85px;
+  margin-bottom: 20px !important;
+}
+.two4 {
+  margin-bottom: 40px !important;
+}
+ .pc1 {
+    width: 45%;
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+   .pc1 {
+    width: 45%;
+    margin-top: 0px;
+  }
+  .c1 {
+  margin-left: 95px;
+  width: 60%;
+}
+.rsv {
+    width: 60%;
+    margin-left: 95px;
+    margin-bottom: 15px;
+  }
+}
 
 
 
 
+@media only screen and (max-width: 380px) {
 
+body {
+    margin: 0;
+    padding: 0
+}
+.container {
+    width: 100%;
+  }
+  .one {
+  margin-left: 10px !important;
+  width: 95% !important;
+}
+.two {
+  margin-left: 18px !important;
+  width: 90% !important;
+}
+.img-fluid.mt-5.mb-5 {
+    width: 55%;
+    margin-left: 80px;
+  }
+  .r2 {
+  font-size: 40px;
+}
+ .dsh11 {
+    width: 60%;
+    margin-left: 73px;
+    margin-bottom: 20px;
+  }
+   .dsh12 {
+    width: 60%;
+    margin-left: 73px;
+    margin-bottom: 20px;
+  }
+   .dsh13 {
+    width: 60%;
+    margin-left: 73px;
+    margin-bottom: 20px;
+  }
+   .dsh21 {
+    width: 60%;
+    margin-left: 73px;
+    margin-bottom: 20px;
+  }
+   .dsh22 {
+    width: 60%;
+    margin-left: 73px;
+    margin-bottom: 20px;
+  }
+   .dsh23 {
+    width: 60%;
+    margin-left: 73px;
+    margin-bottom: 20px;
+  }
+   .c1 {
+    margin-left: 47px;
+    width: 75%;
+  }
+  .rsv {
+    width: 60%;
+    margin-left: 75px;
+    margin-bottom: 15px;
+  }
 
+}
