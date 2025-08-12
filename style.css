@@ -1,0 +1,136 @@
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+.Dhruv {
+    text-align: center;
+}
+
+.Dhruv2 {
+}
+
+.Dhruv3 {
+    text-align: center;
+}
+
+.Dhruv4 {
+    text-align: center;
+}
+
+.Dhruv5 {
+    text-align: center;
+}
+
+.Dhruv6 {
+    text-align: center;
+}
+
+
+.Dhruv7 {
+    text-align: center;
+}
+
+
+.icon1 {
+    float: left;
+    width: 50%;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: left;
+    width: 50%;
+}
+
+.Dhruv8 {
+    background-color: #ddd;
+    display: table;
+    width: 100%;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+@media only screen and (max-width: 768px) {
+ 
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+.mnu1 {
+  text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+.img1 {
+  max-width: 32%;
+}
+
+.fnt {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+}
+
+/* ---------------------------------------------------------------------------------- */
+@media only screen and (max-width: 480px) {
+
+
+    .mnu1 {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Dhruv4 h1 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.img1 {
+  max-width: 58%;
+}
+
+.fnt {
+  font-size: 14px;
+}
+
+.Dhruv6 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p {
+  font-size: 13px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
